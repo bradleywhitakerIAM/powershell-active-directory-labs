@@ -50,3 +50,22 @@ Simulated an IAM employee onboarding workflow using Windows Server 2022, Active 
 - IAM audit documentation
 
 **[View Project 2: User Provisioning Audit Report](02-user-provisioning/User-Provisioning-Audit.md)**
+
+
+
+
+## Project 3: Active Directory Employee Transfer (JML Mover)
+
+Simulated an employee department transfer using Windows Server 2022, Active Directory, and PowerShell.
+
+**Skills demonstrated:**
+- Identity lifecycle management (Joiner–Mover–Leaver)
+- Active Directory user attribute updates
+- Security group access provisioning and deprovisioning
+- Role-Based Access Control (RBAC)
+- Least privilege and access removal
+- Organizational Unit (OU) management
+- Post-transfer access verification
+- IAM audit documentation
+
+**[View Project 3: Employee Transfer Audit Report](03-employee-transfer/Employee-Transfer-Audit.md)**
