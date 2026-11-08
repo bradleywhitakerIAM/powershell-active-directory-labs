@@ -31,3 +31,22 @@ Active Directory accounts.
 
 **Status:** Completed lab exercise with documented
 command execution and screenshot evidence.
+
+
+
+
+
+## Project 2: Active Directory User Provisioning
+
+Simulated an IAM employee onboarding workflow using Windows Server 2022, Active Directory, and PowerShell.
+
+**Skills demonstrated:**
+- Active Directory user provisioning
+- Organizational Unit (OU) management
+- Security group membership assignment
+- Secure password initialization
+- First-login password change enforcement
+- Account activation and verification
+- IAM audit documentation
+
+**[View Project 2: User Provisioning Audit Report](02-user-provisioning/User-Provisioning-Audit.md)**
