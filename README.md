@@ -69,3 +69,27 @@ Simulated an employee department transfer using Windows Server 2022, Active Dire
 - IAM audit documentation
 
 **[View Project 3: Employee Transfer Audit Report](03-employee-transfer/Employee-Transfer-Audit.md)**
+
+
+
+
+
+### Project 4 — Active Directory Employee Offboarding (Leaver)
+
+**Scenario:** Simulated an approved employee termination request and completed the Active Directory offboarding process using PowerShell.
+
+**IAM Skills Demonstrated:**
+- Employee lifecycle management (JML — Leaver)
+- Active Directory account deactivation
+- Security group access removal
+- Password reset and credential management
+- Disabled Users OU administration
+- Post-offboarding verification and audit documentation
+
+**Outcome:** Successfully disabled the employee account, removed direct HR security group membership, reset the password, and moved the account into a dedicated Disabled Users OU.
+
+**Documentation:**
+- [View Project 4](04-employee-offboarding/README.md)
+- [View Offboarding Audit Report](04-employee-offboarding/Employee-Offboarding-Audit.md)
+
+*All activities were performed in a simulated Active Directory lab environment.*
