@@ -156,6 +156,36 @@ It does not demonstrate SCIM provisioning, deletion of accounts in an external a
 
 Screenshots documenting configuration, assignment, user access, and revocation will be added to the project evidence folder.
 
+
+### 1. SAML Application Configuration
+Configured a simulated Radiology Training Portal application using Okta's SAML 2.0 integration.
+
+![Okta SAML Application Configuration](03-saml-application.png)
+
+### 2. End-User Application Assignment
+Verified that the Radiology Training Portal appeared on Daniel Roberts' Okta dashboard through group-based assignment.
+
+![Okta User Dashboard](05-user-dashboard.png)
+
+### 3. Okta SSO Audit Evidence
+Reviewed the Okta System Log and confirmed a successful Okta-side SSO event. The simulated service provider did not complete end-to-end SAML authentication.
+
+![Okta SSO System Log](06-sso-system-log.png)
+
+### 4. Access Revocation Audit Evidence
+Removed Daniel Roberts from SG-Radiology-Staff and confirmed successful group membership removal and application unassignment events.
+
+![Okta Access Revocation Audit Log](08-revocation-audit-log.png)
+
+### 5. Simulated Application Limitation
+Documented the example-domain destination used for this training lab, distinguishing Okta-side SSO events from actual service-provider authentication.
+
+![Simulated Service Provider Limitation](09-simulated-sp-limitation.png)
+
+### Evidence Index
+[View the full evidence index](EVIDENCE_INDEX.md)
+  
+
 ## Skills Demonstrated
 
 Okta Administration | Identity & Access Management | Group-Based Access Control | Application Provisioning | Access Revocation | SAML Configuration | SSO Troubleshooting | Audit Log Analysis | Identity Lifecycle Management
